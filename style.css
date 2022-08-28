@@ -1,0 +1,126 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    background-color: azure;
+    position: fixed;
+}
+
+.header-log {
+    padding: 0 30px;
+    line-height: 80px;
+}
+
+.header-log h1{
+    float: left;
+}
+
+.header-log ul{
+    float: right;
+}
+
+.header-log li{
+    font-size: small;
+    display: inline;
+    padding: 0 20px;
+}
+
+.main {
+    background-image: url(photo/2033034_m.jpg);
+    height: 1280px;
+    background-size: cover;
+}
+
+.main h1 {
+    font-size: x-large;
+    padding: 100px 50px;
+    color: antiquewhite;
+}
+
+.main h3 {
+    margin: 0 100px;
+}
+
+.main p {
+    margin: 10px 125px;
+    line-height: 35px;
+}
+
+.main-word {
+    color: red;
+    font-size: xxx-large;
+}
+
+.works-wrapper {
+    margin: 10px 0;
+    border-top: 1px solid ;
+    border-bottom: 1px solid ;
+}
+
+.works-wrapper h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.work-wrapper {
+    display: flex;
+    width: auto;
+    margin: 0 50px;
+}
+
+.item {
+    width: 25%;
+    padding: 50px 50px;
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: larger;
+}
+
+footer {
+    height: 150px;
+    width: auto;
+    background-color: cornsilk;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 50px 10px;
+    width: 125px;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.fa {
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    transition: all;
+    opacity: 0.8;
+}
+
+.twitter-icon {
+    background-color: #1d9bf0;
+}
+
+.instagram-icon {
+    background: linear-gradient(to right, #5478f2 0%, #f23f79 60%, orange 100%);
+}
